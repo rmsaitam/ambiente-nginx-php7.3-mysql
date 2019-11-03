@@ -1,8 +1,9 @@
 version: '3'
 
 services:
-   app:
+   app_php:
      build: ./php
+     container_name: app_php
      volumes:
        - ./src:/var/www/html
      depends_on:
@@ -30,10 +31,10 @@ services:
      build: ./nginx
      restart: always
      ports:
-       - "8001:80"
+       - "80:80"
      volumes:
        - "./src:/var/www/html"
      depends_on:
-       - app
+       - app_php
      environment:
        VIRTUAL_HOST: app.local,app2.local
