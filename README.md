@@ -38,6 +38,8 @@ Após ter instalado o Docker e Docker-compose, segue os procedimentos:
    `chown -R $(whoami):$(whoami) src/app` 
 
    `chown -R $(whoami):$(whoami) src/app2`
+  
+10. No Laravel Framework precisa editar o _src/app/.env_ em _APP_NAME=_ para _app.local_ que nesse caso é o ServerName definido no Vhost. Para os demais Vhosts que houver também.
 
 Feito!
 
