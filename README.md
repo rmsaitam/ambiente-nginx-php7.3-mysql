@@ -18,11 +18,15 @@ Após ter instalado o Docker e Docker-compose, segue os procedimentos:
 
 4. Execute `docker-compose up -d`
 
-5. Adicione no arquivo hosts o app.local e app2.local
+5. Adicione no arquivo hosts
 
    **Windows:** _C:\Windows\System32\drivers\etc\hosts_
 
    **Linux:** _/etc/hosts_
+
+  `127.0.0.1 app.local`
+ 
+  `127.0.0.1 app2.local`
    
 6. Acessar o container PHP para instalar o Laravel Framework
    `docker exec -it app_php bash`
