@@ -35,9 +35,9 @@ Após ter instalado o Docker e Docker-compose, segue os procedimentos:
 
 9. No Linux para ter permissão no volume _src/app_ e _src/app2_, acessa até o diretóriodo ambiente e execute:
 
-```chown -R $(whoami):$(whoami) src/app 
+   `chown -R $(whoami):$(whoami) src/app` 
 
-   chown -R $(whoami):$(whoami) src/app2```
+   `chown -R $(whoami):$(whoami) src/app2`
 
 Feito!
 
