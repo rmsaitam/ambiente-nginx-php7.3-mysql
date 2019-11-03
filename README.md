@@ -43,9 +43,9 @@ Após ter instalado o Docker e Docker-compose, segue os procedimentos:
 
 9. No Linux para ter permissão no volume _src/app_ e _src/app2_, acessa até o diretório do ambiente e execute:
 
-   `chown -R $(whoami):$(whoami) src/app` 
+   `sudo chown -R $(whoami):$(whoami) src/app` 
 
-   `chown -R $(whoami):$(whoami) src/app2`
+   `sudo chown -R $(whoami):$(whoami) src/app2`
   
 10. No Laravel Framework precisa editar o _src/app/.env_ em _APP_NAME=_ para _app.local_ que nesse caso é o ServerName definido no Vhost. Para os demais Vhosts que houver também.
 
