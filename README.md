@@ -4,9 +4,9 @@ Ambiente de desenvolvimento Docker com Nginx + PHP 7.3 e MySQL
 **Pré-requisitos:** Ter o Docker e Docker-compose instalados.
 
 
-[Instalando Docker no Windows 10](https://mundodacomputacaointegral.blogspot.com/2019/10/instalando-o-docker-no-windows.html){:target="_blank"}
+[Instalando Docker no Windows 10](https://mundodacomputacaointegral.blogspot.com/2019/10/instalando-o-docker-no-windows.html "title" target="_blank")
 
-[Instalando Docker e Docker-compose no Linux (qualquer distro)](https://mundodacomputacaointegral.blogspot.com/2019/10/instalando-docker-e-docker-compose-no-Linux.html){:target="_blank"}
+[Instalando Docker e Docker-compose no Linux (qualquer distro)](https://mundodacomputacaointegral.blogspot.com/2019/10/instalando-docker-e-docker-compose-no-Linux.html "title" target="_blank")
 
 Após ter instalado o Docker e Docker-compose, segue os procedimentos: 
 
