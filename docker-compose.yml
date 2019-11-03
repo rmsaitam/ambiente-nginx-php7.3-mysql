@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-   app_php:
+   app:
      build: ./php
-     container_name: app_php
+     container_name: app
      volumes:
        - ./src:/var/www/html
      depends_on:
@@ -35,6 +35,6 @@ services:
      volumes:
        - "./src:/var/www/html"
      depends_on:
-       - app_php
+       - app
      environment:
        VIRTUAL_HOST: app.local,app2.local
