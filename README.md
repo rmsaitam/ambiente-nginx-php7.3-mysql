@@ -33,7 +33,7 @@ Após ter instalado o Docker e Docker-compose, segue os procedimentos:
 
 8. Esse ambiente de desenvolvido inclui 2 Vhosts no Nginx de exemplo para 2 projetos, mas pode ter N vhosts, basta reutilizar o arquivo _vhost.conf_ para o novo arquivo, alterando o _server_name_ e adicionar no _Dockerfile_ do PHP. Lembrar de adicionar no arquivo hosts para cada Vhost do projeto.
 
-9. No Linux para ter permissão no volume _src/app_ e _src/app2_, acessa até o diretóriodo ambiente e execute:
+9. No Linux para ter permissão no volume _src/app_ e _src/app2_, acessa até o diretório do ambiente e execute:
 
    `chown -R $(whoami):$(whoami) src/app` 
 
