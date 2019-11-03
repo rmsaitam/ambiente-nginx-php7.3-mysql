@@ -25,7 +25,7 @@ Após ter instalado o Docker e Docker-compose, segue os procedimentos:
    **Linux:** _/etc/hosts_
    
 6. Acessar o container PHP para instalar o Laravel Framework
-   `docker exec -it app-php bash`
+   `docker exec -it app_php bash`
    
    Acessar _/var/www/html/app_ e execute `composer create-project --prefer-dist laravel/laravel .`
    
