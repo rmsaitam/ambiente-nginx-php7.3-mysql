@@ -29,9 +29,9 @@ Após ter instalado o Docker e Docker-compose, segue os procedimentos:
    
    Dentro do container PHP, acessar no diretório _/var/www/html/app_ ,e execute 
 
-`rm .gitignore`
+   `rm .gitignore`
 
-`composer create-project --prefer-dist laravel/laravel .`
+   `composer create-project --prefer-dist laravel/laravel .`
    
 7. No browser acesse [http://app.local](http://app.local)
 
